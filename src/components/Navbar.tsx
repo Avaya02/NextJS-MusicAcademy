@@ -7,7 +7,8 @@ import Link from "next/link";
 
 function Navbar({ className }: { className?: string }) {
 
-  const[active,setActive] = useState<string | null>(null);
+  const[active,setActive] = useState<string | null>(null);//In summary: This line defines a state variable active and a function setActive to 
+  //                                   update that state. It is initialized with null, and TypeScript ensures that the state can only be a string or null.
 
   return (
     <>
@@ -23,8 +24,12 @@ function Navbar({ className }: { className?: string }) {
          </MenuItem>
          </Link>
          <MenuItem setActive={setActive} active={active} item="Our Courses">
-        <div className="flex flex-col space-y-4" >
-        <HoveredLink href="/courses">All Courses</HoveredLink>
+        <div className="flex flex-col space-y-4 text-sm" >
+           <HoveredLink href="/courses">All Courses</HoveredLink>
+        <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
+        <HoveredLink href="/courses">Advance composition</HoveredLink>
+        <HoveredLink href="/courses">Songwriting</HoveredLink>
+        <HoveredLink href="/courses">Music Production</HoveredLink>
         </div>
          </MenuItem>
      </Menu>
