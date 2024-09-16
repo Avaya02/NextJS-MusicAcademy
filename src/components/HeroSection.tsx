@@ -1,7 +1,7 @@
 
 import Link from "next/link"
 import { Spotlight } from "./ui/Spotlight"
-// import { Button } from "./ui/moving-border";
+import { Button } from "@/src/components/ui/moving-border";
 
 function HeroSection() {
   return (
@@ -21,7 +21,11 @@ function HeroSection() {
             >Dive into our comprehensive music courses and transform your musical journey today. Whether you're a beginner or looking to refine your skills, join us to unlock your true potential.</p>
             <div className="mt-4">
                 <Link href={"/courses"}>
-                Explore courses
+              <Button borderRadius="1.75rem"
+              className=""
+              >
+              Explore courses
+              </Button>
                 </Link>
             </div>
         </div>
