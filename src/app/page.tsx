@@ -2,6 +2,7 @@ import Image from "next/image";
 import "./globals.css";
 import HeroSection from "../components/HeroSection";
 import FeaturesCourses from "../components/FeaturesCourses";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <h1 className="text-2xl text-center ">  </h1>
       <HeroSection/>
       <FeaturesCourses/>
+      <WhyChooseUs/>
     </main>
    
   );
