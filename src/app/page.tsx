@@ -3,6 +3,7 @@ import "./globals.css";
 import HeroSection from "../components/HeroSection";
 import FeaturesCourses from "../components/FeaturesCourses";
 import WhyChooseUs from "../components/WhyChooseUs";
+import TestimonialCards from "../components/TestimonialCards";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection/>
       <FeaturesCourses/>
       <WhyChooseUs/>
+      <TestimonialCards/>
     </main>
    
   );
