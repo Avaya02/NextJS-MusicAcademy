@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import { HoverEffect } from "./ui/card-hover-effect";
 
@@ -62,8 +63,8 @@ function UpcomingWebinars() {
         </div>
         <div className="mt-10">
           <HoverEffect
-            items={featuredWebinars.map((webinar) => ({
-              title: webinar.title,
+            items={featuredWebinars.map((webinar) => ({ //these items were added because the aceternity ui component is taking props so items props are defined
+              title: webinar.title,                     // below according to the data required 
               description: webinar.description,
               link: webinar.slug,
             }))}
