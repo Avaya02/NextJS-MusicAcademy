@@ -1,6 +1,7 @@
 'use client'
 // import { BackgroundBeams } from '@/src/components/ui/background-beams'
 // import { Button } from '@/components/ui/moving-border'
+import { ButtonsCard } from '@/src/components/ui/buttons'
 import React, { FormEvent, useState } from 'react'
 
 function Page() {
@@ -43,10 +44,8 @@ function Page() {
         placeholder='Enter Your Message'
         />
         <div className='mt-10'>
-          {/* <button>
-            Submit Response
-          </button> */}
-        <Button className='w-full bg-teal-500 font-semibold'>Submit Response</Button>
+        
+        <ButtonsCard className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear">Submit Response</ButtonsCard>
         </div>
       </form>
       </div>
