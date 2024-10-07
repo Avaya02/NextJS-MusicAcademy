@@ -13,7 +13,7 @@ function Page() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative ">
       
-      <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0" />
+      {/* <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0" /> */}
 
       
       <div className="relative z-10 max-w-2xl mx-auto p-4 mt-6">
@@ -43,7 +43,10 @@ function Page() {
         placeholder='Enter Your Message'
         />
         <div className='mt-10'>
-        <Button className='w-full bg-teal-500 font-semibold'>Submit Response</Button>
+          <button>
+            Submit Response
+          </button>
+        {/* <Button className='w-full bg-teal-500 font-semibold'>Submit Response</Button> */}
         </div>
       </form>
       </div>
