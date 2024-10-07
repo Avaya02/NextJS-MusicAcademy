@@ -43,10 +43,10 @@ function Page() {
         placeholder='Enter Your Message'
         />
         <div className='mt-10'>
-          <button>
+          {/* <button>
             Submit Response
-          </button>
-        {/* <Button className='w-full bg-teal-500 font-semibold'>Submit Response</Button> */}
+          </button> */}
+        <Button className='w-full bg-teal-500 font-semibold'>Submit Response</Button>
         </div>
       </form>
       </div>
