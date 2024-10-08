@@ -77,9 +77,9 @@ function Footer() {
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
             <p>New Delhi, India</p>
-            <p>Delhi 10001</p>
-            <p>Email: info@musicschool.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Delhi 110051</p>
+            <p>Email: avaya.sharma933@gmail.com</p>
+            <p>Phone: 100</p>
           </div>
           </div>
           <p className="text-center text-xs pt-8">© 2024 Music School by Avaya. All rights reserved.</p>
